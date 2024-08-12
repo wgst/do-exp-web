@@ -11,5 +11,5 @@ $linecount++;
 $var = $var ."\n". $linecount . ';' . $date;
 
 @file_put_contents('count_msi.txt', $var);
-header('Location: http://www.do-exp.com/files/Do-Exp1.0.0.0.msi');
+header('Location: http://www.do-exp.com/files/Do-Exp1.0.msi');
 ?>

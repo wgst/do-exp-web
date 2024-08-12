@@ -14,5 +14,5 @@ $linecount++;
 $var = $var ."\n". $linecount . ';' . $date;
 
 @file_put_contents('count_rar.txt', $var);
-header('Location: http://www.do-exp.com/files/Do-Exp1.0.0.0.rar');
+header('Location: http://www.do-exp.com/files/Do-Exp1.0.rar');
 ?>
